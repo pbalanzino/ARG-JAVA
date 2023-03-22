@@ -1,1 +1,1 @@
-Hola modifique otra vez el texto desde la IntelliJ.
+Hola hice un merge desde IntelliJ para que se pueda subir en GitHub.
