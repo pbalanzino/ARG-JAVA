@@ -1,7 +1,7 @@
 package Clase03;
 
 public class ContadorDeLetras {
-    public static void contador(char letra, String palabra){
+    public static void contar(char letra, String palabra){
         int count = 0;
         for (int i = 0; i < palabra.length(); i++) {
             if (letra == palabra.charAt(i)) {

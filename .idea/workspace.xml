@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f509b459-2f6f-4e20-8bbc-f228eac49214" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Clase03/ContadorDeLetras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase03/Criptografo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase03/OrdenarNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clase03/SumarNumeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase03/ContadorDeLetras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase03/ContadorDeLetras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
