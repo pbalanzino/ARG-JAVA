@@ -13,8 +13,8 @@ public class Main {
 //        ContadorDeLetras.contar('s', "pelapapas");
 //        OrdenarNumeros.ordenar(15,240,-15,false);
 //        SumarNumeros.sumar(6);
-        String alfabeto = " abcdefghijklmnopqrstuvwxyz";
-        Criptografo.codificar(alfabeto,"auto",2);
-        Criptografo.decodificar(alfabeto,"cwvq",2);
+//        String alfabeto = " abcdefghijklmnopqrstuvwxyz";
+//        Criptografo.codificar(alfabeto,"auto",2);
+//        Criptografo.decodificar(alfabeto,"cwvq",2);
     }
 }
