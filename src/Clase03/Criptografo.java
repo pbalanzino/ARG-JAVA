@@ -1,20 +1,20 @@
 package Clase03;
 
 public class Criptografo {
-    public static void codificar(String alfabeto,String texto,int posiciones){
+    public static void codificar(String diccionario,String texto,int posiciones){
         System.out.println("\nEJERCICIO 2\n");
-        char[] alfabetoArray = new char[alfabeto.length()];
-        for (int i = 0; i < alfabeto.length(); i++) {
-            alfabetoArray[i] = alfabeto.charAt(i);
+        char[] diccionarioArray = new char[diccionario.length()];
+        for (int i = 0; i < diccionario.length(); i++) {
+            diccionarioArray[i] = diccionario.charAt(i);
         }
         String textoLower = texto.toLowerCase();
         char letra[] = new char[textoLower.length()];
         for (int i = 0; i < textoLower.length(); i++) {
             char caracter = textoLower.charAt(i);
-            for (int j = 0; j < alfabetoArray.length; j++) {
-                if (caracter == alfabetoArray[j]) {
-                    if (caracter != 'z') letra[i] = alfabetoArray[j + posiciones];
-                    else letra[i] = alfabetoArray[0];
+            for (int j = 0; j < diccionarioArray.length; j++) {
+                if (caracter == diccionarioArray[j]) {
+                    if (diccionarioArray[j + posiciones] < diccionarioArray.length) letra[i] = diccionarioArray[j + posiciones];
+                    else letra[i] = diccionarioArray[0];
                 }
             }
         }
@@ -22,19 +22,19 @@ public class Criptografo {
         System.out.println("Texto: " + texto + "\n");
         System.out.println("Codificacion: " + String.valueOf(letra));
     }
-    public static void decodificar(String alfabeto,String textoCodificado,int posiciones){
+    public static void decodificar(String diccionario,String textoCodificado,int posiciones){
         String textoLower = textoCodificado.toLowerCase();
-        char[] alfabetoArray = new char[alfabeto.length()];
-        for (int i = 0; i < alfabeto.length(); i++) {
-            alfabetoArray[i] = alfabeto.charAt(i);
+        char[] diccionarioArray = new char[diccionario.length()];
+        for (int i = 0; i < diccionario.length(); i++) {
+            diccionarioArray[i] = diccionario.charAt(i);
         }
         char letra[] = new char[textoLower.length()];
         for (int i = 0; i < textoLower.length(); i++) {
             char caracter = textoLower.charAt(i);
-            for (int j = 0; j < alfabetoArray.length; j++) {
-                if (caracter == alfabetoArray[j]) {
-                    if (caracter != ' ') letra[i] = alfabetoArray[j - posiciones];
-                    else letra[i] = alfabetoArray[alfabetoArray.length - posiciones];
+            for (int j = 0; j < diccionarioArray.length; j++) {
+                if (caracter == diccionarioArray[j]) {
+                    if (caracter != ' ') letra[i] = diccionarioArray[j - posiciones];
+                    else letra[i] = diccionarioArray[diccionarioArray.length - posiciones];
                 }
             }
 
