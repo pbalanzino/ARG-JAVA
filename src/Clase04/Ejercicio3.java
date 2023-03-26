@@ -45,7 +45,7 @@ public class Ejercicio3 extends Criptografo {
                 }
             }
         }
-        return String.valueOf(letra);
+        return letra.toString();
     }
 
     public static void main(String[] args) throws IOException {
