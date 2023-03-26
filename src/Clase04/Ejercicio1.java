@@ -47,16 +47,16 @@ public class Ejercicio1 {
             if(args.length != 0){
                 try {
                 System.out.println("\nEJERCICIO 1.a y 1.c\n");
-                String ascendente[] = new String[3];
+                int ascendente[] = new int[3];
                 int i = 0;
                 for (String arg : args) {
                     if(i<3){
-                        ascendente[i] = arg;
+                        ascendente[i] = Integer.parseInt(arg);
                     }
                     i++;
                 }
                 Arrays.sort(ascendente);
-                String descendente[] = new String[3];
+                int descendente[] = new int[3];
                 i=0;
                 if (args[3].equals("s")) {
                     System.out.println("Los parametros ingresados son: " + Arrays.toString(args));

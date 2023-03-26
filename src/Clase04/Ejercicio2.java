@@ -1,18 +1,17 @@
 package Clase04;
 
 import java.io.File;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Scanner;
+//import java.util.Scanner;
 import static java.nio.file.Paths.*;
 
 public class Ejercicio2 {
     /* Haga una main donde por parámetro envíe la ruta de un archivo. Ese archivo debe
     contener números. El programa debe escribir por consola la suma de esos números
-    a. Al programa anterior agreguele un parámetro para que la operación pueda ser
+    a. Al programa anterior agréguele un parámetro para que la operación pueda ser
     suma o multiplicación. */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         if(args.length == 0){
             System.out.println("No se ha ingresado la ruta del archivo");
         }
@@ -32,15 +31,14 @@ public class Ejercicio2 {
             System.out.println("\nEjercicio 2.a\n");
 //            System.out.print("Escriba \"s\" para sumar o \"m\" para multiplicar: ");
 //            String respuesta = sc.next();
-            String respuesta = operacion;
             total = 0;
-            if (respuesta.equals("sumar")) {
+            if (operacion.equals("sumar")) {
                 for(String linea : Files.readAllLines(path)){
                     total += Integer.parseInt(linea);
                 }
                 System.out.println("\nLos numeros del archivo son: " + Files.readAllLines(path));
                 System.out.println("El total es: " + total);
-            } else if (respuesta.equals("multiplicar")) {
+            } else if (operacion.equals("multiplicar")) {
                 total = 1;
                 for(String linea : Files.readAllLines(path)){
                     total *= Integer.parseInt(linea);
