@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f509b459-2f6f-4e20-8bbc-f228eac49214" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase04/Consola.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase04/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase04/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase04/entrada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase04/entrada.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase04/salida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase04/salida.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.postfix.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ejercicio2 (2)">
+  <component name="RunManager" selected="Application.Ejercicio3">
     <configuration name="Consola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase04.Consola" />
       <module name="ARG-JAVA" />
@@ -119,7 +121,7 @@
     <configuration name="Ejercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase04.Ejercicio3" />
       <module name="ARG-JAVA" />
-      <option name="PROGRAM_PARAMETERS" value="codificar 1 C:\Users\pablo\OneDrive\Documentos\dev\ARG-JAVA\src\Clase04\entrada.txt salida.txt" />
+      <option name="PROGRAM_PARAMETERS" value="decodificar 1 .\src\Clase04\entrada.txt salida.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Clase04.*" />
@@ -139,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ejercicio2 (2)" />
         <item itemvalue="Application.Ejercicio3" />
+        <item itemvalue="Application.Ejercicio2 (2)" />
         <item itemvalue="Application.Ejercicio1" />
         <item itemvalue="Application.Ejercicio2 con Parametros" />
         <item itemvalue="Application.Consola" />
