@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f509b459-2f6f-4e20-8bbc-f228eac49214" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Clase04/entrada.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase04/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase04/Ejercicio1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase04/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase04/Ejercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase04/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase04/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase04/Consola.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.postfix.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.postfix.templates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Ejercicio3">
+}</component>
+  <component name="RunManager" selected="Application.Ejercicio2 (2)">
     <configuration name="Consola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase04.Consola" />
       <module name="ARG-JAVA" />
@@ -68,6 +65,20 @@
       <option name="MAIN_CLASS_NAME" value="Clase04.Ejercicio1" />
       <module name="ARG-JAVA" />
       <option name="PROGRAM_PARAMETERS" value="500 -8 6 s" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase04.Ejercicio2" />
+      <module name="ARG-JAVA" />
+      <option name="PROGRAM_PARAMETERS" value=".\src\Clase04\numeros.txt multiplicar" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Clase04.*" />
@@ -128,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio2 (2)" />
         <item itemvalue="Application.Ejercicio3" />
         <item itemvalue="Application.Ejercicio1" />
         <item itemvalue="Application.Ejercicio2 con Parametros" />
         <item itemvalue="Application.Consola" />
-        <item itemvalue="Application.Ejercicio2" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +188,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ARG_JAVA$Ejercicio3.ic" NAME="Ejercicio3 Coverage Results" MODIFIED="1679787559369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Clase04.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ARG_JAVA$CalculadoraTest.ic" NAME="CalculadoraTest Coverage Results" MODIFIED="1679869188404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Clase06.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ARG_JAVA$Ejercicio2__2_.ic" NAME="Ejercicio2 (2) Coverage Results" MODIFIED="1679785902270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Clase04.*</FILTER>

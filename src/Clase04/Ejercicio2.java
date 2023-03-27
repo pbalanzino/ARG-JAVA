@@ -12,6 +12,10 @@ public class Ejercicio2 {
     a. Al programa anterior agréguele un parámetro para que la operación pueda ser
     suma o multiplicación. */
     public static void main(String[] args) {
+
+        /* args => .\src\Clase04\numeros.txt sumar */
+        /* args => .\src\Clase04\numeros.txt multiplicar */
+
         if(args.length == 0){
             System.out.println("No se ha ingresado la ruta del archivo");
         }
@@ -36,17 +40,17 @@ public class Ejercicio2 {
                 for(String linea : Files.readAllLines(path)){
                     total += Integer.parseInt(linea);
                 }
-                System.out.println("\nLos numeros del archivo son: " + Files.readAllLines(path));
+                System.out.println("Los numeros del archivo son: " + Files.readAllLines(path));
                 System.out.println("El total es: " + total);
             } else if (operacion.equals("multiplicar")) {
                 total = 1;
                 for(String linea : Files.readAllLines(path)){
                     total *= Integer.parseInt(linea);
                 }
-                System.out.println("\nLos numeros del archivo son: " + Files.readAllLines(path));
+                System.out.println("Los numeros del archivo son: " + Files.readAllLines(path));
                 System.out.println("El total es: " + total);
             } else {
-                System.out.println("No se reconoce la respuesta");
+                System.out.println("Debe indicar sumar o multiplicar");
             }
 
         }catch (Exception e){
