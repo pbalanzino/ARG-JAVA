@@ -9,9 +9,9 @@ public class Main {
 //        Ejercicios01.respuestas(5,14, false);
 //        Ejercicios01.categoria(130000,30,3000);
         ContadorDeLetras.contar('s', "pelapapas");
-        OrdenarNumeros.ordenar(15,240,-15,false);
+        OrdenarNumeros.ordenar(15,240,-15,true);
         SumarNumeros.sumar(6);
-        Criptografo.codificar(" abcdefghijklmnopqrstuvwxyz","auto",2);
+        Criptografo.codificar(" abcdefghijklmnopqrstuvwxyz","zombie",7);
         Criptografo.decodificar(" abcdefghijklmnopqrstuvwxyz","cwvq",2);
     }
 }
