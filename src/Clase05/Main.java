@@ -8,16 +8,17 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class Main {
-    public static Objects[] items = new Objects[3];
-    public static ArrayList<String[]> obtenerLista (String ruta){
-        ArrayList<String[]> lista = new ArrayList<>();
+    public static String[] obtenerLista (String ruta){
+        String[] lista = new String[3];
         Path path = Path.of(ruta);
         File file = new File(path.toString());
         try {
+            int i = 0;
             for (String line: Files.readAllLines(file.toPath())
             ) {
                 String[] items = line.split(",");
-                lista.add(items);
+                lista[i] = items[0] + "," + items[1] + "," + items[2];
+                i++;
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -25,18 +26,17 @@ public class Main {
         return lista;
     }
     public static void main(String[] args) {
-//        System.out.println(Arrays.deepToString(obtenerLista(".\\src\\Clase05\\lista-compra.csv").toArray()));
-        ArrayList<String[]> lista = obtenerLista(".\\src\\Clase05\\lista-compra.csv");
-        Producto producto1 = new Producto(lista.get(0)[2],  Double.parseDouble(lista.get(0)[1]), Integer.parseInt(lista.get(0)[0]));
-        Producto producto2 = new Producto(lista.get(1)[2],  Double.parseDouble(lista.get(1)[1]), Integer.parseInt(lista.get(1)[0]));
-        Producto producto3 = new Producto(lista.get(2)[2],  Double.parseDouble(lista.get(2)[1]), Integer.parseInt(lista.get(2)[0]));
-        producto1.setStock(producto1.cantidad);
-        producto2.setStock(producto2.cantidad);
-        producto3.setStock(producto3.cantidad);
-        producto1.getStock();
-        producto2.getStock();
-        producto3.getStock();
-        System.out.println(producto1.getPrecioUnitario());
-
+        String[] lista = obtenerLista(".\\src\\Clase05\\lista-compra.csv");
+        Producto producto1 = new Producto(lista[0].split(",")[2],  Double.parseDouble(lista[0].split(",")[1]));
+        Producto producto2 = new Producto(lista[1].split(",")[2],  Double.parseDouble(lista[1].split(",")[1]));
+        Producto producto3 = new Producto(lista[2].split(",")[2],  Double.parseDouble(lista[2].split(",")[1]));
+        ItemCarrito item1 = new ItemCarrito(producto1, Integer.parseInt(lista[0].split(",")[0]));
+        ItemCarrito item2 = new ItemCarrito(producto2, Integer.parseInt(lista[1].split(",")[0]));
+        ItemCarrito item3 = new ItemCarrito(producto3, Integer.parseInt(lista[2].split(",")[0]));
+        Carrito carrito = new Carrito();
+        carrito.agregarItem(producto1, Integer.parseInt(lista[0].split(",")[0]));
+        carrito.agregarItem(producto2, Integer.parseInt(lista[1].split(",")[0]));
+        carrito.agregarItem(producto3, Integer.parseInt(lista[2].split(",")[0]));
+        carrito.precio();
     }
 }

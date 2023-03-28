@@ -1,12 +1,10 @@
 package Clase05;
 
 public abstract class Descuento {
-    private float valor;
-    public float getValorDesc() {
-        return valor;
-    }
-    public void setValorDesc(float valor) {
+    public double valor;
+    public double getValorDesc() {return valor;}
+    public void setValorDesc(double valor) {
         this.valor = valor;
     }
-    public abstract float valorFinal(float valorIncial);
+    public abstract double valorFinal(double valorIncial);
 }

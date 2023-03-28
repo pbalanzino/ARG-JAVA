@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f509b459-2f6f-4e20-8bbc-f228eac49214" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Clase05/Carrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase05/Descuento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase05/DescuentoFijo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase05/DescuentoPorcentaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase05/ItemCarrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase05/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase05/lista-compra.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clase04/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase04/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase05/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase05/Carrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase05/Descuento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase05/Descuento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase05/DescuentoFijo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase05/DescuentoFijo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase05/DescuentoPorcentaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase05/DescuentoPorcentaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase05/ItemCarrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase05/ItemCarrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase05/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase05/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase05/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +176,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ARG_JAVA$Ejercicio3.ic" NAME="Ejercicio3 Coverage Results" MODIFIED="1679787559369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Clase04.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ARG_JAVA$CalculadoraTest.ic" NAME="CalculadoraTest Coverage Results" MODIFIED="1679869188404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Clase06.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ARG_JAVA$Ejercicio2__2_.ic" NAME="Ejercicio2 (2) Coverage Results" MODIFIED="1679785902270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Clase04.*</FILTER>

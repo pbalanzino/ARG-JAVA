@@ -1,27 +1,29 @@
 package Clase05;
 public class Producto {
-    private String producto;
-    private double precioUnitario;
-    private int stock = 10;
-    public int cantidad;
-    public Producto(String producto, double precioUnitario, int cantidad) {
-            this.producto = producto;
-            this.precioUnitario = precioUnitario;
-            this.cantidad = cantidad;
+    private String nombre;
+    private double precio;
+
+    public Producto(String nombre, double precio) {
+        this.nombre = nombre;
+        this.precio = precio;
     }
-    public int setStock(int cantidad) {
-        this.stock -= cantidad;
-        return stock;
+
+    public String getNombre() {
+        return nombre;
     }
-    public int getStock() {
-        return stock;
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
-    public double getPrecioUnitario() {
-        return precioUnitario;
+
+    public double getPrecio() {
+        return precio;
     }
-    public String getProducto() {
-        return producto;
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
     }
+
 }
 
 

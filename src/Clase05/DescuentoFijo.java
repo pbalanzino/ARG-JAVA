@@ -1,7 +1,9 @@
 package Clase05;
 
 public class DescuentoFijo extends Descuento{
-    public float valorFinal(float valorInicial){
-        return valorInicial - this.getValorDesc();
+    public DescuentoFijo() {
+        this.setValorDesc(150);
     }
+
+    public double valorFinal(double valorInicial){return valorInicial - this.getValorDesc();}
 }
