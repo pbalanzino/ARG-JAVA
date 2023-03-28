@@ -1,11 +1,11 @@
-package Clase06;
+package org.argprograma;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
-public class CalculadoraTest {
+import static org.junit.jupiter.api.Assertions.*;
 
+class CalculadoraTest {
     Calculadora calc;
     @BeforeEach
     public void setup(){
@@ -48,6 +48,4 @@ public class CalculadoraTest {
         double total = calc.multiplicar(resultado, 25);
         assertEquals(2750, total,0);
     }
-
-
 }

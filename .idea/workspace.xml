@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f509b459-2f6f-4e20-8bbc-f228eac49214" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Clase06/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase06/CalculadoraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculadora/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculadora/src/main/java/org/argprograma/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculadora/src/main/java/org/argprograma/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculadora/src/test/java/org/argprograma/CalculadoraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ARG-JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ARG-JAVA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase06/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase06/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,33 +53,52 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.postfix.templates"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalculadoraTest">
-    <configuration name="Clase05.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clase05.Main" />
-      <module name="ARG-JAVA" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.argprograma" />
+      <recent name="Clase06" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculadoraTest (1)">
+    <configuration name="CalculadoraTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculadora" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Clase05.*" />
+          <option name="PATTERN" value="org.argprograma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.argprograma" />
+      <option name="MAIN_CLASS_NAME" value="org.argprograma.CalculadoraTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clase04.Ejercicio3" />
+    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ARG-JAVA" />
-      <option name="PROGRAM_PARAMETERS" value="codificar 1 C:\Users\pablo\OneDrive\Documentos\dev\ARG-JAVA\src\Clase04\entrada.txt salida.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Clase04.*" />
+          <option name="PATTERN" value="Clase06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Clase06" />
+      <option name="MAIN_CLASS_NAME" value="Clase06.CalculadoraTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraTest (1)" />
         <item itemvalue="JUnit.CalculadoraTest" />
+        <item itemvalue="JUnit.CalculadoraTestManual" />
         <item itemvalue="JUnit.CalculadoraTest.testSumar" />
         <item itemvalue="JUnit.CalculadoraTest.testMultiplicar" />
-        <item itemvalue="Application.Clase05.Main" />
-        <item itemvalue="Application.Ejercicio3" />
       </list>
     </recent_temporary>
   </component>
